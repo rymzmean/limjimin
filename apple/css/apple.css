@@ -1,13 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
+.menu-box {
+    background-color: rgba(0, 0, 0, 0);
 }
 
-li {
+.menu-box li {
     list-style: none;
 }
 
-ul {
+.menu-box ul {
     display: flex;
     height: 48px;
     max-width: 1024px;
@@ -18,7 +17,7 @@ ul {
     padding: 0 16px;
 }
 
-header {
+.menu-box header {
     /* width: 100%
     기본값이라 안써도 적용된다! */
     background-color: rgba(0, 0, 0, 0);
