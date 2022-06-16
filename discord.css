@@ -1,0 +1,51 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0%;
+    align-items: center;
+    display: flex;
+    height: 71px;
+}
+.nav-wrapper {
+    display: flex;
+}
+
+.nav-wrapper ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-wrapper a {
+    padding: 16px;
+    font-size: 14px;
+    color: blue;
+}
+
+.hero-inner {
+    background-image: url(../img/head-img.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-inner h5 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.search {
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 30px;
+    height: 40px;
+}
